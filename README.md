@@ -8,17 +8,18 @@ Installation of the required libraries
 pip install -r requirements.txt
 ```
 ## Setting up your Twilio Account
-[SignUp your first twilio account](https://www.twilio.com/try-twilio)   
+* [SignUp your first twilio account](https://www.twilio.com/try-twilio)   
 
-You will be provided with a dashboard.
+* You will be provided with a dashboard.
 
-Go to Settings and you will see your 'ACCOUNT SID' and 'AUTH TOKEN' under 'LIVE CREDENTIALS'. <br />
+* Go to Settings and you will see your 'ACCOUNT SID' and 'AUTH TOKEN' under 'LIVE CREDENTIALS'. <br />
 ![Verified Number](https://github.com/VishnuRameshbabu/Covid19-updates-via-SMS/blob/master/images/img2.png)
 
-Go to 'Products and Services' on the left dashboard.
+* Go to 'Products and Services' on the left dashboard.
 
-Then go to 'Phone numbers' under Super Network in order to get the numbers verified that you need to send the SMS update.<br />
-You need to manually verify the numbers you need by clicking the '+'.<br />
+* Then go to 'Phone numbers' under Super Network in order to get the numbers verified that you need to send the SMS update.<br />
+* You need to manually verify the numbers you need by clicking the '+'.<br />
+
 ![Verified Number](https://github.com/VishnuRameshbabu/Covid19-updates-via-SMS/blob/master/images/img1.png)
 
 ## Setting up the Program
@@ -32,7 +33,7 @@ Then add the trial number created for your Account and your verified number
 from_='+15017122661' #YOUR TRIAL PHONE NUMBER
 to=' ' #THE VERIFIED NUMBER THAT YOU NEED TO SEND THE SMS
 ```
-
+This is only a trial account so you can send SMS to only a single number at a time.
 ## Usage
 Run the project using 
 ```python
