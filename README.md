@@ -40,6 +40,9 @@ Run the project using
 python covid19_casecount.py
 ```
 
+![SMS](https://github.com/VishnuRameshbabu/Covid19-updates-via-SMS/blob/master/images/img3.jpg)
+
+
 
 
 ## Editing the time delay between each SMS
